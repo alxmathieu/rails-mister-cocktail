@@ -15,7 +15,9 @@ gem "autoprefixer-rails"
 
 # Security
 gem 'figaro'
-
+# Cloudinary
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use postgresql as the database for Active Record
