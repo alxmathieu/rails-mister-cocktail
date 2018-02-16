@@ -1,14 +1,11 @@
-.container{
-  margin-top: 30px;
-}
-
 .cocktail-infos {
   margin-top: 50px;
   display: flex;
 
 }
 
-.btn-cocktail-show {
-
+.container .btn {
+  margin-top: 30px;
+  background-color: $deep-gray;
+  border: 0px !important;
 }
-
