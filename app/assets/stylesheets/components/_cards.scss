@@ -16,6 +16,7 @@
 }
 .card-category {
   position: absolute;
+  color: $light-gray;
   top: 10px;
   left: 10px;
   font-size: 15px;
@@ -23,6 +24,8 @@
 }
 .card-description {
   position: absolute;
+  font-weight: bolder;
+  letter-spacing: 0.7px;
   color: white !important;
   bottom: 10px;
   left: 10px;
@@ -47,4 +50,8 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+.row {
+  margin-bottom: 40px;
 }
